@@ -1,0 +1,9 @@
+classes:
+    - gluster::brick
+    - gluster::server::glance
+    - gluster::server::cinder
+parameters:
+    puppetmaster: 192.168.0.2
+    gluster_server_peers: "192.168.0.3, 192.168.0.4"
+    replicacount: 2
+    mystorageip: "192.168.0.2"
